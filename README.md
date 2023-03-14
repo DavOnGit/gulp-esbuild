@@ -11,7 +11,7 @@ There are two exports available: `gulpEsbuild` and `createGulpEsbuild`. In most 
 const {createGulpEsbuild} = require('gulp-esbuild')
 const gulpEsbuild = createGulpEsbuild({
 	incremental: true, // enables the esbuild's incremental build
-	piping: true,      // enables piping
+	pipe: true,      // enables piping
 })
 ```
 
